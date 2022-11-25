@@ -1,0 +1,44 @@
+@import url('https://fonts.cdnfonts.com/css/rapidly');
+/* center text within the element*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: rgb(212, 29, 244);
+
+}
+header {
+  background-image: url()
+    background-position: center;
+    text-align: center;
+    letter-spacing: 0.5ch;
+    padding: 4em 0;
+}
+
+header nav {
+    background-color: rgb(190, 34, 185);
+  }
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block; /* anchor elementen kunnen zo grootte krijgen */
+  color: rgb(77, 7, 103);
+  padding: 24px;
+}
+
+nav a:hover {
+  background-color: rgb(230, 161, 230);
+  color: rgb(68, 68, 186);
+}
+section {
+  border-width: 3px;
+  border-style:dashed;
+  border-color: rgb(59, 11, 66);
+ }
+ p{
+  margin-bottom: 1em;
+ }
