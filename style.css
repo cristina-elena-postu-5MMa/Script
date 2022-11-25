@@ -4,8 +4,17 @@ body{
 
 #flexbox {
     display: flex;
+    background-color: #b10dbd;
+    padding: 5%;
+    margin: 60px;
+    flex-direction: row;
+    width: 50vw;
+    margin: auto;
 }
 
 .col {
     width: 50%;
 }
+a{
+    color: #4a0a8a;
+    font-size: 16px;}
