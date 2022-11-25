@@ -1,3 +1,8 @@
+html{
+    background-color: rgb(99, 4, 88);
+    color: rgb(86, 16, 118);
+    font-family: el messiri;
+}
 body{
     background-color: rgb(213, 116, 228);
 }
@@ -6,10 +11,14 @@ body{
     display: flex;
     background-color: #b10dbd;
     padding: 5%;
-    margin: 60px;
+    margin: 40px;
     flex-direction: row;
     width: 50vw;
     margin: auto;
+}
+p{
+    margin: auto;
+    font-size: 16px;
 }
 
 .col {
@@ -18,3 +27,32 @@ body{
 a{
     color: #4a0a8a;
     font-size: 16px;}
+    .artikel:hover{
+        color: #0000c4;
+        border-color: #149900;
+        border-width: 2px;
+        border-style: dashed;
+    }
+    .matchapp:hover{
+        color: #df5beb;
+        border-color: #500c52;
+        border-width: 2px;
+        border-style: dashed;
+    }
+    .bandsite:hover{
+        color: #df5beb ;
+        border-color: #500c52;
+        border-width: 2px;
+        border-style: dashed;
+    }
+    li{
+        color: #500c52;
+        margin: auto;
+        list-style: none;
+        text-align: center;
+    }
+    .col-left {
+        display: block;
+        text-align: left;
+        width: 50vw;
+    }
