@@ -1,7 +1,18 @@
+
 html{
     background-color: rgb(99, 4, 88);
     color: rgb(86, 16, 118);
     font-family: el messiri;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    margin: auto;
+}
+h2{
+    font-size: 40px;
+    margin: auto;
+    text-decoration: underline;
 }
 body{
     background-color: rgb(213, 116, 228);
@@ -10,24 +21,24 @@ body{
 #flexbox {
     display: flex;
     background-color: #b10dbd;
-    padding: 5%;
-    margin: 40px;
+    padding: 3%;
+    margin: 50px;
     flex-direction: row;
-    width: 50vw;
+    width: 65vw;
     margin: auto;
 }
 p{
     margin: auto;
     font-size: 16px;
 }
+a{
+    color: #4a0a8a;
+    font-size: 16px;}
 
 .col {
     width: 50%;
 }
-a{
-    color: #4a0a8a;
-    font-size: 16px;}
-    .artikel:hover{
+     .artikel:hover{
         color: #0000c4;
         border-color: #149900;
         border-width: 2px;
@@ -55,4 +66,21 @@ a{
         display: block;
         text-align: left;
         width: 50vw;
+    }
+    .col-right{
+        display: block;
+        text-align: right;
+        width: 50vw;
+    }
+    footer{
+        width: 40vw;
+        margin: auto;
+        text-align: center;
+        background-color: #af61e8;
+    }
+    .footer:hover{
+        color: #9c3dcf;
+        border-color: #6f0ddf;
+        border-width: 2px;
+        border-style: dashed;
     }
