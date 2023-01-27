@@ -3,6 +3,9 @@ html{
     background-color: rgb(99, 4, 88);
     color: rgb(237, 73, 240);
     font-family: The Great Summer;}
+    header nav li {
+        display: inline;
+    }
 h1{
     text-align: center;
     font-size: 60px;
