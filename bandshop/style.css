@@ -1,3 +1,23 @@
 body {
-    background-color: rgb(95, 167, 239);
+    background-color: rgb(255, 255, 255);
+}
+
+header nav li {
+    display: inline;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav a {
+    color: rgb(255, 3, 230);
+    padding: 24px;
+}
+
+nav a:hover {
+    background-color: rgb(235, 123, 235);
+    color: rgb(72, 5, 77);
 }
