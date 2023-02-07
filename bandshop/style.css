@@ -12,9 +12,10 @@ header nav li {
     align-items: center;
 }
 
-img{
+header img{
     justify-content: flex-start;
-    width: 50%;
+    width: 8rem;
+    margin-right: auto;
 }
 
 nav a {
