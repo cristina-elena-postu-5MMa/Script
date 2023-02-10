@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
 body {
     background-color: rgb(255, 255, 255);
 }
@@ -12,7 +18,11 @@ header nav li {
     align-items: center;
 }
 
-header img{
+.menu {
+    padding: 1rem;
+}
+
+header img {
     justify-content: flex-start;
     width: 8rem;
     margin-right: auto;
@@ -28,15 +38,33 @@ nav a:hover {
     color: rgb(72, 5, 77);
 }
 
-img{
+img {
     width: 100%;
     align-items: center;
 }
-main .flex-container {
 
-justify-content: center;
-width: 11cm;
-align-items: baseline;
-
-
+#herobanner {
+    width: 100%;
+    min-height: 80vh;
+    background-image: url("image/Why-Corpse-husband-is-popular.jpg");
+    background-size: cover;
+    background-position: top;
 }
+
+#herobanner .flex-container {
+    align-items: flex-end;
+    justify-content: center;
+}
+#herobanner .flex-container{
+    align-items: flex-end;
+}
+main img{
+    width: 20rem;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+    main .flex-container{
+        justify-content: flex-start;
+        
+    }
+    
