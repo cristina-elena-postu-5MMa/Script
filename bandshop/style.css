@@ -35,5 +35,8 @@ img{
 main .flex-container {
 
 justify-content: center;
-margin-right: 10cm;
+width: 11cm;
+align-items: baseline;
+
+
 }
