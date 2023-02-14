@@ -45,7 +45,7 @@ img {
 
 #herobanner {
     width: 100%;
-    min-height: 80vh;
+    min-height: 115vh;
     background-image: url("image/Why-Corpse-husband-is-popular.jpg");
     background-size: cover;
     background-position: top;
@@ -61,10 +61,15 @@ img {
 main img{
     width: 20rem;
     margin-top: 5rem;
-    margin-left: 5rem;
+    margin-left: 11rem;
 }
     main .flex-container{
         justify-content: flex-start;
         
+    }
+    main h1{
+        justify-content: center;
+        margin-left: 25rem;
+        margin-top: 2rem;
     }
     
