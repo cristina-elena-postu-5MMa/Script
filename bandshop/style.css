@@ -43,6 +43,10 @@ img {
     align-items: center;
 }
 
+section {
+    margin-bottom: 3rem;
+}
+
 #herobanner {
     width: 100%;
     min-height: 115vh;
@@ -55,21 +59,25 @@ img {
     align-items: flex-end;
     justify-content: center;
 }
-#herobanner .flex-container{
+
+#herobanner .flex-container {
     align-items: flex-end;
 }
-main img{
+
+main img {
     width: 20rem;
-    margin-top: 5rem;
-    margin-left: 11rem;
 }
-    main .flex-container{
-        justify-content: flex-start;
-        
-    }
-    main h1{
-        justify-content: center;
-        margin-left: 25rem;
-        margin-top: 2rem;
-    }
-    
+
+main .flex-container {
+    justify-content: flex-start;
+
+}
+
+#featured p {
+    max-width: 30ch;
+}
+
+#featured .flex-container {
+    justify-content: center;
+    gap: 4rem;
+}
