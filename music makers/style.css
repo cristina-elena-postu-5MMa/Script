@@ -1,0 +1,96 @@
+/* CSS reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Header styles */
+header {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.row1 {
+	height: 20vh;
+	background-color: #963c3c;
+	padding: 0 2rem;
+}
+
+.row2 {
+	height: 70vh;
+	background-image: url(your-background-image.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.row3 {
+	height: 10vh;
+	background-color: #ffffff;
+	padding: 0 2rem;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo img {
+	height: 50px;
+}
+
+.logo h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 2rem;
+	margin-left: 1rem;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav ul li {
+	margin: 0 1rem;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #1cbe8a;
+	font-family: Arial, sans-serif;
+}
+
+nav ul li a:hover {
+	color: #9b3939;
+}
+
+.hero-text {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	color: #000000;
+}
+
+.hero-text h2 {
+	font-family: 'Pacifico', cursive;
+	font-size: 4rem;
+	margin-bottom: 1rem;
+}
+
+.hero-text h3 {
+	font-family: Arial, sans-serif;
+	font-size: 2rem;
+	margin-bottom: 2rem;
+}
+
+.hero-text p {
+	font-family: Arial,
