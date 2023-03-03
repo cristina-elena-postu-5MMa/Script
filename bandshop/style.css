@@ -82,6 +82,9 @@
  main {
      font-family: 'Courier New', Courier, monospace;
  }
+ main h1{
+    justify-content: center;
+ }
 
  main img {
      width: 20rem;
