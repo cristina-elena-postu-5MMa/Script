@@ -82,10 +82,7 @@
  main {
      font-family: 'Courier New', Courier, monospace;
  }
- main h1{
-    justify-content: center;
- }
-
+ 
  main img {
      width: 20rem;
  }
@@ -111,3 +108,12 @@
  main h2 {
      color: rgb(209, 42, 42);
  }
+ .flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.flex-item {
+    flex: 1;
+}
