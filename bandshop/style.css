@@ -49,6 +49,8 @@
 
  section {
      margin-bottom: 3rem;
+     padding-bottom: 3rem;
+     border-bottom: 3px solid black;
  }
 
  #herobanner {
@@ -75,14 +77,14 @@
  }
 
  #herobanner input:hover {
-    background-color: #fff;
+     background-color: #fff;
  }
 
 
  main {
      font-family: 'Courier New', Courier, monospace;
  }
- 
+
  main img {
      width: 20rem;
  }
@@ -108,12 +110,13 @@
  main h2 {
      color: rgb(209, 42, 42);
  }
- .flex-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 2rem;
-}
 
-.flex-item {
-    flex: 1;
-}
+ .flex-container {
+     display: flex;
+     justify-content: space-between;
+     gap: 2rem;
+ }
+
+ .flex-item {
+     /* flex: 1; */
+ }
