@@ -1,5 +1,5 @@
 header img {
-    width: 29rem;
+    width: 25rem;
 }
 @import url("https://use.typekit.net/hfi1kak.css");
 :root {
@@ -22,5 +22,7 @@ body {
 }
 header {
     background-color: var(--bgc-02);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }
 
