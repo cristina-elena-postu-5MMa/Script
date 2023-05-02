@@ -1,7 +1,9 @@
 header img {
     width: 25rem;
 }
+
 @import url("https://use.typekit.net/hfi1kak.css");
+
 :root {
     --bgc-01: hsl(223, 60%, 44%);
     --bgc-02: hsl(216, 100%, 62%);
@@ -20,9 +22,23 @@ body {
     font-family: "owners-wide", sans-serif;
     line-height: 1;
 }
+
+img {
+    width: 100%;
+}
+
 header {
     background-color: var(--bgc-02);
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
 }
 
+header nav li {
+    display: inline;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
