@@ -24,6 +24,7 @@ body {
 }
 
 img {
+    display: block;
     width: 100%;
 }
 
@@ -31,7 +32,17 @@ header {
     background-color: var(--bgc-02);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    align-items: center;
+    align-items: end;
+    justify-items: center;
+}
+
+header .date {
+    margin-bottom: 2rem;
+}
+
+header nav {
+    align-self: center;
+    justify-self: end;
 }
 
 header nav li {
@@ -42,4 +53,10 @@ header nav li {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+}
+
+#lineup img {
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+    object-position: top;
 }
