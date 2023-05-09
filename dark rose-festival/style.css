@@ -5,9 +5,9 @@ header img {
 @import url("https://use.typekit.net/hfi1kak.css");
 
 :root {
-    --bgc-01: hsl(223, 60%, 44%);
-    --bgc-02: hsl(216, 100%, 62%);
-    --txt-01: hsl(186, 95%, 9%);
+    --bgc-01: hsl(214, 93%, 64%);
+    --bgc-02: hsl(248, 66%, 51%);
+    --txt-01: hsl(219, 100%, 83%);
 }
 
 * {
@@ -59,4 +59,34 @@ header nav li {
     aspect-ratio: 3 / 2;
     object-fit: cover;
     object-position: top;
+}
+footer {
+    padding: 5vw 10vw;
+    background-color: #210979;
+    color: #793939;
+}
+
+footer .flex-container:first-child {
+    margin-bottom: 2rem;
+}
+
+footer ul li {
+    font-size: 0.8rem;
+    line-height: 2;
+    list-style-type: none;
+}
+
+footer ul li:first-child a, footer ul:first-child li a {
+    color: #8c83ff;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+footer i {
+    margin-left: 1ch;
+    font-size: 1.6rem;
+}
+
+footer i:hover {
+    transform: scale(1.1);
 }
