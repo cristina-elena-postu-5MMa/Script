@@ -27,6 +27,7 @@ img {
     width: 100%;
 }
 
+
 header {
     background-color: var(--bgc-02);
     display: grid;
@@ -44,9 +45,17 @@ header nav {
     justify-self: end;
 
 }
+nav a{
+    color:#201056
+}
 
 header nav li {
     display: inline;
+}
+section{
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid black;
 }
 
 .grid-container {
