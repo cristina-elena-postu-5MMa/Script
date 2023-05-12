@@ -5,6 +5,7 @@
     --bgc-02: hsl(248, 66%, 51%);
     --txt-01: hsl(219, 100%, 83%);
 }
+
 header img {
     width: 25rem;
 }
@@ -45,21 +46,25 @@ header nav {
     justify-self: end;
 
 }
-nav a{
-    color:#201056
+
+nav a {
+    color: #201056
 }
 
 header nav li {
     display: inline;
 }
-section{
+
+section {
     margin-bottom: 1rem;
     padding-bottom: 1rem;
     border-bottom: 3px solid black;
 }
-h3{
+
+h3 {
     margin-top: 1rem;
 }
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -71,6 +76,7 @@ h3{
     object-fit: cover;
     object-position: top;
 }
+
 footer {
     padding: 5vw 10vw;
     background-color: #210979;
@@ -87,12 +93,14 @@ footer ul li {
     list-style-type: none;
 }
 
-footer ul li:first-child a, footer ul:first-child li a {
+footer ul li:first-child a,
+footer ul:first-child li a {
     color: #8c83ff;
     font-size: 1rem;
     font-weight: 600;
     text-transform: uppercase;
 }
+
 footer i {
     margin-left: 1ch;
     font-size: 1.6rem;
