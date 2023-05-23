@@ -24,7 +24,8 @@ body {
 
 img {
     display: block;
-    width: 100%;
+    width: 120rem;
+    margin-left: 2rem;
 }
 
 
@@ -56,7 +57,18 @@ nav a {
 
 header nav li {
     display: inline;
+    
 }
+.flex-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#featured .flex-container {
+    justify-content: center;
+    gap: 4rem;
+}
+
 
 section {
     margin-bottom: 1rem;
@@ -67,13 +79,27 @@ section {
 h3 {
     margin-top: 1rem;
 }
+main .flex-container {
+    justify-content: flex-start;
 
+}
 .grid-container {
     display: grid;
     width:50rem ;
     margin-left: 5rem;
     margin-top: 3rem;
 }
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 5rem;
+  }
+#featured p {
+    max-width: 30ch;
+}
+
+
 
 #lineup img {
     aspect-ratio: 3 / 2;
