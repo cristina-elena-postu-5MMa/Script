@@ -1,0 +1,115 @@
+@import url("https://use.typekit.net/hfi1kak.css");
+:root {
+    --bgc-01: hsl(214, 93%, 64%);
+    --bgc-02: hsl(248, 66%, 51%);
+    --txt-01: hsl(219, 100%, 83%);
+}
+
+header img {
+    width: 25rem;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bgc-01);
+    color: var(--txt-01);
+    font-family: "owners-wide", sans-serif;
+    line-height: 1;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+
+header {
+    background-color: var(--bgc-02);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: end;
+    justify-items: center;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 3px solid black;
+
+}
+
+header .date {
+    margin-bottom: 2rem;
+}
+
+header nav {
+    align-self: center;
+    justify-self: end;
+
+}
+
+nav a {
+    color: #201056
+}
+
+header nav li {
+    display: inline;
+}
+
+section {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid black;
+}
+
+h3 {
+    margin-top: 1rem;
+}
+
+.grid-container {
+    display: grid;
+    width:50rem ;
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+
+#lineup img {
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+    object-position: top;
+}
+
+footer {
+    padding: 5vw 10vw;
+    background-color: #210979;
+    color: #a51e1e;
+}
+
+footer .flex-container:first-child {
+    margin-bottom: 2rem;
+}
+
+footer ul li {
+    font-size: 0.8rem;
+    line-height: 2;
+    list-style-type: none;
+}
+
+footer ul li:first-child a,
+footer ul:first-child li a {
+    color: #8c83ff;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+footer i {
+    margin-left: 1ch;
+    font-size: 1.6rem;
+}
+
+footer i:hover {
+    transform: scale(1.1);
+}
