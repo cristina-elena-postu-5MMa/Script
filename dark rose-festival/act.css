@@ -21,10 +21,17 @@ body {
     font-family: "owners-wide", sans-serif;
     line-height: 1;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+
 
 img {
     display: block;
-    width: 120rem;
+    width: 35rem;
     margin-left: 2rem;
 }
 
@@ -59,17 +66,6 @@ header nav li {
     display: inline;
     
 }
-.flex-container {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-#featured .flex-container {
-    justify-content: center;
-    gap: 4rem;
-}
-
-
 section {
     margin-bottom: 1rem;
     padding-bottom: 1rem;
@@ -95,9 +91,7 @@ main .flex-container {
     justify-content: flex-end;
     margin-right: 5rem;
   }
-#featured p {
-    max-width: 30ch;
-}
+
 
 
 

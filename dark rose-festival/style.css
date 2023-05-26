@@ -1,3 +1,4 @@
+@import url('https://fonts.cdnfonts.com/css/g-galengan');
 @import url("https://use.typekit.net/hfi1kak.css");
 
 :root {
@@ -19,8 +20,9 @@ header img {
 body {
     background-color: var(--bgc-01);
     color: var(--txt-01);
-    font-family: "owners-wide", sans-serif;
-    line-height: 1;
+    font-family: 'g Galengan', sans-serif;
+    
+     line-height: 1;
 }
 
 img {
@@ -52,7 +54,7 @@ header nav {
 }
 
 nav a {
-    color: #201056
+    color: #9477f0
 }
 
 header nav li {
@@ -73,6 +75,9 @@ h3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+}
+.lineip p {
+    max-width:100ch;
 }
 
 #lineup img {
