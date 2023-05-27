@@ -59,6 +59,7 @@ nav a {
 
 header nav li {
     display: inline;
+    margin-right: 2rem;
 }
 
 section {
@@ -67,7 +68,7 @@ section {
     border-bottom: 3px solid black;
 }
 
-h3 {
+h2 {
     margin-top: 1rem;
 }
 
@@ -76,9 +77,16 @@ h3 {
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
-.lineip p {
+#lineup p {
     max-width:100ch;
+    margin-left: 3rem;
+    align-items: center;
 }
+#lineup h2 {
+    margin-left: 3rem;
+    align-items: center;
+}
+
 
 #lineup img {
     aspect-ratio: 3 / 2;
