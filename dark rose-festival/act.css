@@ -1,3 +1,4 @@
+@import url('https://fonts.cdnfonts.com/css/g-galengan');
 @import url("https://use.typekit.net/hfi1kak.css");
 :root {
     --bgc-01: hsl(214, 93%, 64%);
@@ -18,7 +19,7 @@ header img {
 body {
     background-color: var(--bgc-01);
     color: var(--txt-01);
-    font-family: "owners-wide", sans-serif;
+    font-family: 'g Galengan', sans-serif;
     line-height: 1;
 }
 .grid-container {
@@ -31,7 +32,7 @@ body {
 
 img {
     display: block;
-    width: 35rem;
+    width: 30rem;
     margin-left: 2rem;
 }
 
@@ -59,11 +60,12 @@ header nav {
 }
 
 nav a {
-    color: #201056
+    color: #9477f0
 }
 
 header nav li {
     display: inline;
+    margin-right: 2rem;
     
 }
 section {
@@ -72,9 +74,6 @@ section {
     border-bottom: 3px solid black;
 }
 
-h3 {
-    margin-top: 1rem;
-}
 main .flex-container {
     justify-content: flex-start;
 
@@ -82,18 +81,67 @@ main .flex-container {
 .grid-container {
     display: grid;
     width:50rem ;
-    margin-left: 5rem;
+  
     margin-top: 3rem;
+}
+h2 {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+span {
+    margin-left: 1rem
+}
+header input#burger {
+    display: none;
+}
+
+header label[for="burger"] {
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    display: none;
+    width: 100%;
+    padding: 1rem 1ch;
+    background-color: var(--bgc-02);
+    text-align: right;
+    cursor: pointer;
+}
+
+header label[for="burger"] i {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+@media (width <=750px) {
+    header label[for="burger"] {
+        display: block;
+    }
+
+    header nav ul {
+        position: fixed;
+        z-index: 3;
+        top: 3rem;
+        right: 0;
+        display: none;
+        padding-right: 1ch;
+        width: 100%;
+        background-color: var(--bgc-02);
+        text-align: right;
+        user-select: none;
+    }
+
+    header input#burger:checked+label[for="burger"]+nav ul {
+        display: flex;
+        flex-direction: column;
+    }
 }
 .container {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-right: 5rem;
+    margin-right: 2rem;
   }
-
-
-
 
 #lineup img {
     aspect-ratio: 3 / 2;
@@ -133,3 +181,5 @@ footer i {
 footer i:hover {
     transform: scale(1.1);
 }
+@media (width <=750px) {
+    }
