@@ -60,7 +60,7 @@ header nav {
 }
 
 nav a {
-    color: #9477f0
+    color: #ffffff
 }
 
 header nav li {
@@ -80,7 +80,6 @@ main .flex-container {
 }
 .grid-container {
     display: grid;
-    width:50rem ;
   
     margin-top: 3rem;
 }
@@ -183,5 +182,3 @@ header label[for="burger"] i {
         flex-direction: column;
     }
 }
-@media (width <750px) {
-    }
