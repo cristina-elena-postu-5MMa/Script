@@ -149,9 +149,8 @@ footer i:hover {
 
 @media (width <=750px) {
     header {
-        background-color: #fff;
+        background-color: #7b4343;
     }
-
     #lineup .grid-container {
         grid-template-columns: 1fr ;
     }
@@ -167,6 +166,7 @@ footer i:hover {
             background-color: var(--bgc-02);
             text-align: right;
             user-select: none;
+            color: rgb(34, 130, 130);
         }
     
         header input#burger:checked+label[for="burger"]+nav ul {
