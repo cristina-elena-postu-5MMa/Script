@@ -40,29 +40,10 @@ header {
     padding-bottom: 2rem;
     margin-bottom: 2rem;
     border-bottom: 3px solid black;
+    font-size: 1.9rem;
 
 }
-header input#burger {
-    display: none;
-}
 
-header label[for="burger"] {
-    position: fixed;
-    z-index: 3;
-    top: 0;
-    right: 0;
-    display: none;
-    width: 100%;
-    padding: 1rem 1ch;
-    background-color: var(--bgc-02);
-    text-align: right;
-    cursor: pointer;
-}
-
-header label[for="burger"] i {
-    margin: 0;
-    font-size: 1.25rem;
-}
 header .date {
     margin-bottom: 2rem;
 }
@@ -74,9 +55,20 @@ header nav {
 }
 
 nav a {
-    color: #9477f0
+    color: #9c87e2
+    
 }
-
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #4d0e0e;
+    font-size: 1.2rem;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+  }
 header nav li {
     display: inline;
     margin-right: 2rem;
@@ -150,27 +142,11 @@ footer i:hover {
 @media (width <=750px) {
     header {
         background-color: hsl(248, 66%, 51%);
+        font-size: 1.2rem;
     }
     #lineup .grid-container {
         grid-template-columns: 1fr ;
     }
     
-        header nav ul {
-            position: fixed;
-            z-index: 3;
-            top: 3rem;
-            right: 0;
-            display: none;
-            padding-right: 1ch;
-            width: 100%;
-            background-color: var(--bgc-02);
-            text-align: right;
-            user-select: none;
-            color: rgb(34, 130, 130);
-        }
-    
-        header input#burger:checked+label[for="burger"]+nav ul {
-            display: flex;
-            flex-direction: column;
-        }
-    }
+       
+   
