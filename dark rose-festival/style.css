@@ -149,7 +149,7 @@ footer i:hover {
 
 @media (width <=750px) {
     header {
-        background-color: #7b4343;
+        background-color: hsl(248, 66%, 51%);
     }
     #lineup .grid-container {
         grid-template-columns: 1fr ;
