@@ -81,7 +81,10 @@ section {
     border-bottom: 3px solid black;
     font-size: 1.5rem;
 }
-
+section i {
+    font-size: 4rem;
+    color: #210979;
+}
 h2 {
     margin-top: 1rem;
     font-size: 2rem;
@@ -147,7 +150,7 @@ footer ul:first-child li a {
 
 footer i {
     margin-left: 1ch;
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 
 footer i:hover {
