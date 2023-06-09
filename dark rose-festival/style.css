@@ -21,8 +21,8 @@ body {
     background-color: var(--bgc-01);
     color: var(--txt-01);
     font-family: 'g Galengan', sans-serif;
-    
-     line-height: 1;
+
+    line-height: 1;
 }
 
 img {
@@ -56,19 +56,20 @@ header nav {
 
 nav a {
     color: #9c87e2
-    
 }
+
 .navbar-brand {
     font-size: 2rem;
     font-weight: bold;
-  }
-  
-  .navbar-nav .nav-link {
+}
+
+.navbar-nav .nav-link {
     color: #4d0e0e;
     font-size: 1.2rem;
     margin-right: 10px;
     transition: color 0.3s ease;
-  }
+}
+
 header nav li {
     display: inline;
     margin-right: 2rem;
@@ -78,14 +79,17 @@ section {
     margin-bottom: 1rem;
     padding-bottom: 1rem;
     border-bottom: 3px solid black;
+    font-size: 1.5rem;
 }
 
 h2 {
     margin-top: 1rem;
+    font-size: 2rem;
 }
+
 .grid-card {
     grid-template-columns: repeat(2, 1fr);
-    
+
 }
 
 .grid-container {
@@ -93,11 +97,13 @@ h2 {
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
+
 #lineup p {
-    max-width:100ch;
+    max-width: 100ch;
     margin-left: 3rem;
     align-items: center;
 }
+
 #lineup h2 {
     margin-left: 3rem;
     align-items: center;
@@ -108,6 +114,11 @@ h2 {
     aspect-ratio: 3 / 2;
     object-fit: cover;
     object-position: top;
+}
+
+#act {
+    padding: 0 20%;
+    
 }
 
 footer {
@@ -148,9 +159,10 @@ footer i:hover {
         background-color: hsl(248, 66%, 51%);
         font-size: 1.2rem;
     }
+
     #lineup .grid-container {
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr;
     }
-    
-       
-   
+
+
+}
