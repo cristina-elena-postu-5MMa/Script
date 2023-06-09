@@ -149,8 +149,8 @@ footer ul:first-child li a {
 }
 
 footer i {
-    margin-left: 1ch;
-    font-size: 2rem;
+    margin-left: .5ch;
+    font-size: 4rem;
 }
 
 footer i:hover {
