@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Anime Page</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+		integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+		integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 	<header>
 		<h1>Anime World</h1>
@@ -29,21 +37,17 @@
 
 		<section class="featured-anime-section">
 			<h2>Featured Anime</h2>
-			<div class="anime-grid">
-				<div class="anime-item">
-					<img src="anime1.jpg" alt="Anime 1">
-					<h3>Anime Title 1</h3>
-				</div>
-				<div class="anime-item">
-					<img src="anime2.jpg" alt="Anime 2">
-					<h3>Anime Title 2</h3>
-				</div>
-				<div class="anime-item">
-					<img src="anime3.jpg" alt="Anime 3">
-					<h3>Anime Title 3</h3>
-				</div>
-			</div>
-		</section>
+          <div class="slicky">
+
+				<div> <img src="pictures/download (1).jpg" alt=""></div>
+
+				<div> <img src="pictures/download (3).jpg" alt=""></div>
+
+				<div> <img src="pictures/images (2).jpg" alt=""> </div>
+				
+				<div><img src="pictures/download.jpg" alt=""></div>
+           </div>
+</section>
 
 		<section class="popular-genres-section">
 			<h2>Popular Genres</h2>
@@ -59,14 +63,31 @@
 
 		<section class="about-section">
 			<h2>About Anime World</h2>
-			<p>Anime World is your ultimate destination for all things anime. We bring you a vast collection of anime series, movies, and information about your favorite characters and creators. Immerse yourself in the enchanting world of anime and explore a universe of imagination and creativity.</p>
+			<p>Anime World is your ultimate destination for all things anime. We bring you a vast collection of anime
+				series, movies, and information about your favorite characters and creators. Immerse yourself in the
+				enchanting world of anime and explore a universe of imagination and creativity.</p>
 		</section>
 	</main>
-
-	<footer>
+<footer>
 		<p>&copy; 2023 Anime World. All rights reserved.</p>
 	</footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.3/smooth-scroll.min.js" integrity="sha512-HYG9E+RmbXS7oy529Nk8byKFw5jqM3R1zzvoV2JnltsIGkK/AhZSzciYCNxDMOXEbYO9w6MJ6SpuYgm5PJPpeQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-</body>
-</html>
 
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+	<script type="text/javascript">
+	  $(document).ready(function(){
+		$('.slicky').slick({
+			slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
+	  });
+	</script>
+
+
+</body>
+
+</html>
