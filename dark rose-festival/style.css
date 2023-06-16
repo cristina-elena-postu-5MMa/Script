@@ -3,7 +3,7 @@
 
 :root {
     --bgc-01: hsl(214, 93%, 64%);
-    --bgc-02: hsl(248, 66%, 51%);
+    --bgc-02: hsl(249, 74%, 30%);
     --txt-01: hsl(219, 100%, 83%);
 }
 
@@ -32,7 +32,7 @@ img {
 
 
 header {
-    background-color: var(--bgc-02);
+    background-color: hsl(235, 76%, 54%);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: end;
@@ -49,8 +49,8 @@ header .date {
 }
 
 header nav {
-    align-self: center;
-    justify-self: end;
+    align-self:center;
+    justify-self: flex-start;
 
 }
 
@@ -59,20 +59,21 @@ nav a {
 }
 
 .navbar-brand {
-    font-size: 2rem;
+    
     font-weight: bold;
 }
 
 .navbar-nav .nav-link {
     color: #4d0e0e;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-right: 10px;
     transition: color 0.3s ease;
 }
 
+
 header nav li {
-    display: inline;
-    margin-right: 2rem;
+    display:inline-flex;
+  
 }
 
 section {
@@ -81,10 +82,12 @@ section {
     border-bottom: 3px solid black;
     font-size: 1.5rem;
 }
+
 section i {
     font-size: 4rem;
     color: #210979;
 }
+
 h2 {
     margin-top: 1rem;
     font-size: 2rem;
@@ -121,7 +124,7 @@ h2 {
 
 #act {
     padding: 0 20%;
-    
+
 }
 
 footer {
@@ -159,16 +162,20 @@ footer i:hover {
 
 @media (width <=750px) {
     header {
-        background-color: hsl(248, 66%, 51%);
+        background-color: hsl(235, 76%, 54%);
         font-size: 1.2rem;
     }
 
     #lineup .grid-container {
         grid-template-columns: 1fr;
     }
-    #iframe {
-        
-    }
-
-
 }
+
+@keyframes scale{
+    0% { 
+        transform: scale(0);
+    }
+    100%{ transform: scale(1);}
+}
+
+.try{ animation: scale 4s ease-in-out infinite ;}
