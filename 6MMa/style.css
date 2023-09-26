@@ -91,19 +91,18 @@
     top: 8px;
     left: 9px;
 }
-.box {
-  width: 30px;
-  height: 30px;
-}
+.navbar {
+    background-color: #333;
+    padding: 10px; 
+    display: flex;
+    justify-content: flex-end;}
 
-.box .group {
-  position: fixed;
-  width: 30px;
-  height: 30px;
-  top: 0;
-  left: 0;
-}
 
+.icon img {
+    max-width: 40px; 
+    height: auto;
+}
+        
 
 .hero .group-wrapper {
     position: absolute;
