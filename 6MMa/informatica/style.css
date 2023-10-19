@@ -52,8 +52,9 @@ input[type="submit"] {
 
 footer {
     background-color: #797979;
-    padding: 10px 20px;
+    padding: 5vw 10vw;
     margin-top: auto;
+
    
 }
 
@@ -63,7 +64,7 @@ footer ul li {
     list-style-type: none;
 }
 footer .flex-container:first-child {
-    margin-bottom: em;
+    margin-bottom: 2rem;
 }
 footer ul li:first-child a,
 footer ul:first-child li a {
@@ -73,6 +74,6 @@ footer ul:first-child li a {
     text-transform: uppercase;
 }
 footer i {
-    margin-left: .5ch;
+    margin-left: 1ch;
     font-size: 4rem;
 }

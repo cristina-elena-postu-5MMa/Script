@@ -11,10 +11,12 @@
 <body>
 
     <header>
-        <ul><a href="#">Gmail</a>
+        <nav><ul>
+            <a href="#">Gmail</a>
             <a href="#">Images</a>
         </ul>
-        <img src="images/images.png" alt="Google Logo">
+        </nav>
+       <img src="images/images.png" alt="Google Logo">
         <form action="https://www.google.com/search" method="GET">
             <input type="text" name="q" id="search-box" placeholder="Search Google">
             <input type="submit" value="Google Search">
@@ -22,29 +24,27 @@
     </header>
     <main></main>
     <footer>
-        <ul>
-            <li>
-                <a href="#">Advertising</a>
-            </li>
-            <li><a href="#">Business</a></li>
+        <div class="flex-container">
+        <ul> <li>
+            <a href="#">Advertising</a>
+        </li></ul>
+           <ul>
+            <li><a href="#">Business</a></li></ul>
+            <ul>
             <li>
                 <a href="#">Business</a>
-            </li>
-            <li> <a href="#">Privacy</a></li>
+            </li></ul>
+            <ul>
+            <li> <a href="#">Privacy</a></li></ul>
+            <ul>
             <li>
                 <a href="#">Terms</a>
-            </li>
+            </li></ul>
+            <ul>
             <li>
                 <a href="#">Settings</a>
-            </li>
-        </ul>
-
-
-
-
-
-
-
+            </li></ul>
+        </div>
     </footer>
 </body>
 

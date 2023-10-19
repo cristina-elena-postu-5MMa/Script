@@ -2,14 +2,17 @@
  body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
 
 /* Header styles */
 header {
+    justify-content: space-between;
+    display:flex ;
     background-color: #333;
     color: #fff;
-    padding: 20px 0;
+    padding: 0px 0;
 }
 
 /* Logo styles */
@@ -33,14 +36,21 @@ nav a {
 
 /* Hero section styles */
 .hero {
-    background-image: url('ocean.jpg'); /* Replace with your image */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    height: 94vh;
+    background-image: url('imgaes/Bungo-Stray-Dogs-4-ep41-8-1070x602.webp'); /* Replace with your image */
     background-size: cover;
     background-position: center;
     color: black;
-    padding: 100px 0;
+   padding-right: 2%;
+
 }
 
 .hero > *{
+    
     background-color: rgba(100%, 100%, 100%, 0.5);
     padding: 1%;
 }
